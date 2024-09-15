@@ -13,17 +13,39 @@
 
 // }
 
-const number =1000;
-if (number <=500){
-    console.log('number is smaller than equal to 500');
+// const number =1000;
+// if (number <=500){
+//     console.log('number is smaller than equal to 500');
     
-}
-else if(number ===1000){
-    console.log('number is equal to 1000');
+// }
+// else if(number ===1000){
+//     console.log('number is equal to 1000');
     
-}
+// }
 
-else {
-    console.log('number is greater than 1000');
+// else {
+//     console.log('number is greater than 1000');
+    
+// }
+
+const userName=true;
+const email=true;
+const google=false;
+
+//  AND operator
+
+// if(userName && email && google){
+//     console.log('user has logged in.');
+//     }
+//     else{
+// console.log('something is missing');
+
+//     }
+// OR Operator
+
+if(userName || email || google){
+    console.log('user has logged in');
+}else{
+    console.log("something is wrong");
     
 }

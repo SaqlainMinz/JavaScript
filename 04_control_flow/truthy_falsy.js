@@ -28,9 +28,30 @@ if(email.length===0){
     console.log('this is an empty aarray');
     
 }
+
+
 // to check emptyu object
+
 const emptyObj={}
 if(Object.keys(emptyObj).length===0){
-    console.log('this is an empty object');
-    
+    console.log('this is an empty object');   
 }
+
+
+// Nullish coalescing Operator (??): null Undefined
+
+let val1;
+//val1=5??10;
+//val1=null??10;
+val1=undefined??10;
+//console.log(val1);
+
+
+//Ternary operator
+
+//syntax
+//condition ? true : false
+
+const gucci =1000;
+gucci>=5000? console.log('cheap'):console.log('costly');
+;
