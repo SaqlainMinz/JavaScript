@@ -1,4 +1,4 @@
-const coding = ['js','cpp','swift','ruby','java'];
+const coding = ['js', 'cpp', 'swift', 'ruby', 'java'];
 
 // coding.forEach(function(value){
 //     console.log(value);
@@ -9,22 +9,22 @@ const coding = ['js','cpp','swift','ruby','java'];
 //     console.log(value);
 // })
 
-const myObj =[
-{
-    language : "javascript",
-    shortForm : "js",
-},
-{
-    language : "cpp",
-    shortForm : "c++",
-},
-{
-    language : "python",
-    shortForm : "py"
-}
+const myObj = [
+    {
+        language: "javascript",
+        shortForm: "js",
+    },
+    {
+        language: "cpp",
+        shortForm: "c++",
+    },
+    {
+        language: "python",
+        shortForm: "py"
+    }
 ];
 
-myObj.forEach((value)=>{
-    console.log(value.language , value.shortForm);
-    
+myObj.forEach((value) => {
+    console.log(value.language, value.shortForm);
+
 })

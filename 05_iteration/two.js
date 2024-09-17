@@ -11,16 +11,16 @@ while (arr < myArr.length) {
 }
 
 /* do while loop */
-let score =1;
+let score = 1;
 do {
     console.log(`score is ${score}`);
     score++;
-} while (score<=10);
+} while (score <= 10);
 
 
 
-let sc =11;
+let sc = 11;
 do {
     console.log(`score is ${sc}`);
     sc++;
-} while (sc<=10);
+} while (sc <= 10);
