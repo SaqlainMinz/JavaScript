@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    
+    <h1>My Name Saqlain Anish Minz </h1>
+    <button id="stop">Stop</button>
+
+    <script>
+          const name=document.querySelector('h1');
+          const stop = document.querySelector('#stop')
+          const sayHello=function(){
+            console.log('hello');
+             }
+
+             const changeText = function () {
+                name.innerHTML = 'Nice To Meet You'                
+             }
+       const change = setTimeout(changeText  ,5000)
+        stop.addEventListener('click',()=>{
+            clearTimeout(change)    
+            console.log("stopped");
+              
+        })
+      
+
+       
+     
+    </script>
+</body>
+</html>

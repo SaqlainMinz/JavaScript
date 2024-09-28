@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    
+    <h1>My name is saqlain anish minz</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <script>
+        const start =document.querySelector('#start');
+        const stop =document.querySelector('#stop');
+        let intervalId;
+
+        const sayDate =function (){
+        console.log('saqlain',Date.now().toLocaleString());
+       }
+
+       start.addEventListener('click',()=>{
+          intervalId = setInterval(sayDate,1000)
+       })
+       stop.addEventListener('click',()=>{
+           clearInterval(intervalId)
+          })
+
+    </script>
+</body>
+</html>
